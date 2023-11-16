@@ -2,7 +2,6 @@
 
 ## <p align="center">Quantum NLP for High-Level Sentence Classification</p>
 
-![image](img.png)
 ![image](img1.png)
 
 ### Introduction:
