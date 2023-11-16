@@ -2,6 +2,45 @@
 
 <b>Quantum NLP for High-Level Sentence Classification</b>
 
+### The Team:
+1. Dhruv Sachdeva
+2. Hussein Shiri
+3. Kiran Kaur
+4. Maksym Husarov
+5. Rishi Koushik Reddy Thippireddy
+
+### How the project is organized:
+This project contains 4 folders and 1 pdf:
+1. sentences folder: contains a pdf for web scraping, collected sentences and the filtered sentences.
+2. classical_pipeline folder: contains classical pipeline jupyter notebook with the sentences used.
+3. hybrid_pipeline folder: contains hybrid pipeline jupyter notebook with the sentences used.
+4. quantum_pipeline folder: contains quantum pipeline jupyter notebook with the sentences used.
+5. research_paper: a small research paper for this project as a pdf.
+
+### Technologies used:
+- Python
+- Spark
+- Spark-nlp
+- Jupyter notebook
+- Google colab
+- Lambeq
+
+### Comparison:
+
+|           | classical | hybrid | quantum |
+| --------- | ----------| ------ | ------- |
+| time      | shortest  | medium | longest |
+| memory    | least     | medium | biggest |
+| accuracy  | best      | worst  | medium  |
+
+In this table the time to complete, memory consumption and accuracy were compared.
+
+It is reasonable that the classical pipeline is the best choice now. Quantum nlp is still a new field while classical nlp has been worked on a lot and many advances in the classical approach have been added to the classical programs. Also Spark-nlp is known to be the fastest, most advanced and most accurate nlp tool.
+
+For a comparison between the hybrid and quantum case, although the quantum case got better accuracy with fewer training sentences, it's memory consumption was more than that of the hybrid pipeline. But a thing to note is that the quantum simulator used for both hybrid and quantum pipeline was without noise which could make the results a lot worse if noise was added, so the classical pipeline still wins even more.
+
+![Screenshot from 2023-11-03 00-52-24](https://github.com/hosen20/quantumopenai_QNLP_internship_project/assets/84079430/74be433d-4bc7-4752-998a-f3bfa3b0fd68)
+
 Introduction: Quantum Natural Language Processing (Quantum NLP) has emerged as a pioneering field at the intersection of quantum computing and natural language processing. It harnesses the unique properties of quantum systems to enhance the capabilities of traditional NLP techniques. This project aims to explore the potential of Quantum NLP in high-level sentence classification, employing both Classical and Quantum Pipelines, and to contribute novel features to the NLP landscape.
 
 Objective: The primary goal of this project is to demonstrate the power of Quantum NLP in high-level sentence classification tasks and compare its performance with classical methods. Leveraging the inherent parallelism and information processing capabilities of quantum systems, this project aims to achieve improved accuracy and efficiency in classifying sentences based on their semantic meaning.
