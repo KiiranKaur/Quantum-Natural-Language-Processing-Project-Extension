@@ -1,5 +1,4 @@
-# Quantum Natural Language Processing Project - QuantumAI Internship(Quantum NLP : PROJ-00141)
-
+# Quantum Natural Language Processing Project Extension
 ## <p align="center">Quantum NLP for High-Level Sentence Classification</p>
 
 ![image](img1.png)
